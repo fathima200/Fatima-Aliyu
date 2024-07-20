@@ -34,6 +34,7 @@ width: 100%;
 .nav-links {
     gap: 20px;
     list-style: none;
+    height:10px;
     font-size: 15px;
     font-weight: 500;
     padding: 10px  10px;
