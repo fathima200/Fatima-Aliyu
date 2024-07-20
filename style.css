@@ -23,7 +23,7 @@ nav,
 nav {
     justify-content:space-around;
     align-items: center;
-    height: 12vh;
+    
     position: fixed;
     z-index: 1000;
 top: 0;
