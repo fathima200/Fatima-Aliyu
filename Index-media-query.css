@@ -1,0 +1,230 @@
+/* Small devices (landscpe phones, 576px and up  */
+@media (min-width: 576px) {
+    .skill-box {
+       align-items: center;
+       width: 300px;
+    height: 80px;
+     align-content: center;
+     
+      }
+
+    .skills-section {
+        justify-content: center;
+       padding: 20px;
+       max-width: 100vh;
+      margin: 0;
+    }
+        
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 50px;
+        margin-bottom: 20px;
+        padding: 0px 50px;
+    }
+
+    .project-box {
+        width: 300px;
+    }
+    .logo{
+        display: contents;
+    }
+
+    .main-content{
+        margin: auto;
+        /* max-width: 500px; */
+    }
+    .blog-image img {
+        width: 500px;
+        height: 250px;
+        
+    }
+    #Contact {
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info-upper-container {
+        width: 300px;
+    }
+}
+
+
+
+/* medium devices (tablet, 760px and up */
+@media (min-width: 760px) {
+    .logo{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .logo:hover {
+        cursor: default;
+    }
+    
+    .nav-links {
+        gap: 30px;
+        list-style: none;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 10px  10px;
+         }
+
+
+         #Home {
+            height: 50vh;
+            padding: 50px;
+         font-size: larger;
+        gap: 10px;}
+
+        #About h2 {
+            font-size: 35px;
+         }   
+    
+         .about-image img {
+            max-width: 400px;
+            border-radius: 50%;}
+            
+
+            .about-container{
+                max-width: 600px;
+                margin: auto;
+            }
+            .main-content{
+                margin: auto;
+                max-width: 600px;
+            }
+            .blog-image img {
+                width: 550px;
+                height: 250px;
+            }
+
+            .contact-info-upper-container {
+                display: flex;
+                flex-direction: row;
+                border: rgb(0, 0, 0) 0.1rem solid;
+                border-color:rbg( 163, 163, 163) ;
+                border-radius: 1rem;
+                gap: 2rem;
+                width: 500px;
+                height: 100px;
+                /* color: black; */
+
+            }
+            
+            #About p{
+                line-height: 1.5;
+            }
+
+
+            .project-box {
+                width: 400px;
+            }
+
+            .skills-section {
+                justify-content: center;
+               max-width: 650px;
+                margin: 0;
+               padding-left: 150px;
+              }
+             
+              .skill-box {
+                width: 250px;
+                height: 80px;
+                 }
+              
+              .skills-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                gap: 20px 150px;
+              }
+
+                .skills-section h2 {
+                    font-size: 30px;
+                }
+ }
+
+
+
+ @media (min-width: 992px) {
+    .skills-section{
+        margin: auto;
+        align-content: center;
+        padding-left: 50px;
+    }
+
+    .skill-box {
+        width: 300px;
+        height: 100px;
+         }
+
+         .skills-grid {           
+            gap: 20px 150px;
+          }
+
+          .project-box {
+            width: 500px;
+        }
+        
+        .about-text p{
+            font-size: larger;
+        }
+
+    .nav-links {
+        gap: 70px;
+        }
+
+         #Home{
+            padding-right: 100px;
+            font-size: x-large;
+            height: 75vh;
+            }
+       #Home p{
+        font-size: 1000px;
+       } 
+
+       .Lets-Work-Together{
+        width: 150px ;
+       }
+
+ }
+
+
+
+ @media (min-width: 1200px) {
+    .about-text p{
+        font-size: 25px;
+    }
+    .about-container{
+        max-width: 900px;
+        margin: auto;
+    }
+    .skills-section {
+        
+       max-width: 900px;
+        margin: auto;
+       padding-left: 150px;
+      }
+     
+      .skill-box {
+        width: 350px;
+        height: 80px;
+        
+         }
+         .skills-grid {           
+            gap: 20px 200px;
+          }
+    
+          .main-content{
+            margin: auto;
+            max-width: 900px;
+        }
+        .blog-image img {
+            width: 800px;
+            height: 350px;
+        }
+          
+          
+ }
