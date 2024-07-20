@@ -60,7 +60,7 @@ a:hover {
 /* Home section */
 #Home {
     margin-top: 50px;
-    height: 60vh;
+    
   display: flex;
    flex-direction: column;
     padding: 30px; 
